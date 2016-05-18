@@ -1,4 +1,7 @@
-# angular-multi-catalog-search-directve
+# angular-multi-catalog-search-directive
 
-Basic project to create a search bar directive that allow the user to plug multiple search catalog.
-The results are displayed as autocomplete.
+Basic project to create a directive for a search bar that allow the developer to plug multiple search catalog.
+The results are displayed like a dropdown.
+
+## Design
+The project use Bootstrap, but the directive template can be changed and use any other CSS framework
