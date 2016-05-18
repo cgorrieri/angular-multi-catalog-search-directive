@@ -1,0 +1,14 @@
+.search-directive {
+    position:relative;
+}
+
+.search-directive .results {
+     position:absolute;
+     top:100%;
+     left:0;
+     width:100%;
+}
+
+.search-directive .results a {
+    cursor:pointer;
+}

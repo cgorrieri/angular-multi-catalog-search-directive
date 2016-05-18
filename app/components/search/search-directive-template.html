@@ -1,0 +1,30 @@
+<div class="search-directive">
+  <div class="form-group">
+    <input type="text" name="search"
+           class="form-control"
+           ng-model="text"
+           ng-change="search()"
+           ng-keydown="onKeyDown($event)"
+           ng-focus="onFocus()"
+           ng-blur="onBlur($event)"
+           placeholder="Type to search"
+    />
+
+    <div class="results list-group" ng-show="showResults"
+         ng-mouseover="blockBlur = true"
+         ng-mouseleave="blockBlur = false">
+
+      <a ng-click="onSearchItemSelect(entity)"
+         ng-mouseover="selectResult($index)"
+         ng-mouseleave="unselectResult($index)"
+         ng-repeat="entity in results"
+         class="list-group-item cursor-pointer"
+         ng-class="{active: entity.selected}">
+
+        <h4 class="list-group-item-heading">{{entity.name}}</h4>
+
+        <p class="list-group-item-text">{{entity.type}}</p>
+      </a>
+    </div>
+  </div>
+</div>

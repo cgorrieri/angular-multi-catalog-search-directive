@@ -1,0 +1,13 @@
+{
+  "name": "multi-catalog-search",
+  "description": "Simple directive to search in multiple catalogs",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cgorrieri/angular-multi-catalog-search-directve",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-ui-router": "^0.2.18",
+    "angular-filter": "^0.5.8"
+  }
+}

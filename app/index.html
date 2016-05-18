@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="components/search/search-directive.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="container">
+    <div ui-view></div>
+  </div>
+
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="bower_components/angular-filter/dist/angular-filter.js"></script>
+  <script src="app.js"></script>
+  <script src="home-view/home-view.js"></script>
+  <script src="employees-view/employees-view.js"></script>
+
+  <script src="components/search/search.js"></script>
+  <script src="components/search/search-directive.js"></script>
+
+  <script src="components/employees/employees.js"></script>
+  <script src="components/employees/employees-services.js"></script>
+
+  <script src="components/advisors/advisors.js"></script>
+  <script src="components/advisors/advisors-services.js"></script>
+
+  <script src="components/attorneys/attorneys.js"></script>
+  <script src="components/attorneys/attorneys-services.js"></script>
+
+</body>
+</html>

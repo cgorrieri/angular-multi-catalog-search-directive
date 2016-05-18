@@ -1,0 +1,18 @@
+{
+  "name": "multi-catalog-search",
+  "description": "Simple directive to search in multiple catalogs",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cgorrieri/angular-multi-catalog-search-directve",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "bower": "^1.3.1",
+    "http-server": "^0.6.1"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+
+    "prestart": "npm install",
+    "start": "http-server -p 9999"
+  }
+}
